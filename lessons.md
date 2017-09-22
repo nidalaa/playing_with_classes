@@ -1,5 +1,5 @@
 1. Class definition
 2. Constructor
     - instance vars
-    - instance vars
     - params
+    - optional params
