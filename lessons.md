@@ -8,3 +8,4 @@
 5. Inheritance
     - children class specific methods
     - overriding parent class methods
+    - extending constructor
