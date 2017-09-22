@@ -8,3 +8,5 @@ require "./animals/animal.rb"
 # animal_1.speak
 # animal_2.speak
 
+# animal_1.can_speak?
+# animal_2.can_speak?

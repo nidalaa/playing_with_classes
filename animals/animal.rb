@@ -27,6 +27,15 @@ class Animal
   end
 
   def speak
-    "Bla bla bla"
+    if can_speak?
+      "Bla bla bla"
+    end
+  end
+
+  private
+
+  def can_speak?
+    @number_of_legs < 8 && @name != "Unknown"
   end
 end
+
