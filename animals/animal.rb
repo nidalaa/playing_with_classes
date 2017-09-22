@@ -25,4 +25,8 @@ class Animal
   def number_of_legs=(value)
     @number_of_legs = value
   end
+
+  def speak
+    "Bla bla bla"
+  end
 end
