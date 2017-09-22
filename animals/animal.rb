@@ -1,7 +1,7 @@
 class Animal
-  def initialize
+  def initialize(name, number_of_legs)
     @id = Random.rand(1..1000)
-    @name = "Rex"
-    @number_of_legs = 4
+    @name = name
+    @number_of_legs = number_of_legs
   end
 end
