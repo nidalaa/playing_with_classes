@@ -3,3 +3,4 @@
     - instance vars
     - params
     - optional params
+3. Getters & Setters
