@@ -1,12 +1,22 @@
 require "./animals/animal.rb"
+require "./animals/dog.rb"
+require "./animals/spider.rb"
 
 # Please require this file and try to do each of below instructions:
 
-# animal_1 = Animal.new(4, "Rex")
-# animal_2 = Animal.new(8)
+# dog = Dog.new(4, "Rax")
+# dog.name
+# dog.name = "Rex"
+# dog.name
 
-# animal_1.speak
-# animal_2.speak
+# dog.speak
+# dog.can_speak?
 
-# animal_1.can_speak?
-# animal_2.can_speak?
+
+# spider = Spider.new(8, "Bob")
+# spider.name
+# spider.name = "Bobby"
+# spider.name
+
+# spider.speak
+# spider.can_speak?
