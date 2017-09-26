@@ -45,3 +45,11 @@ Use and instance of Corrector class in Person class:
 - in `validate_name` method, to correct person's name
 
 ----------------
+
+[#7]
+
+Change your own getters and setters to shortcuts:
+- first only attr_reader and attr_writer
+- then use attr_accessor where it makes sense
+
+----------------
