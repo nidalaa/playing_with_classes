@@ -20,3 +20,4 @@
     - real life example: Alex `has many` animals: a dog, a spider, a cat. And each of these animals `belongs to` one owner, right? A dog belongs to Alex. A spider belongs to Alex. A cat belongs to Alex
     - `has many` - one object of class X can have a collection of objects of class Y (e.g. alex.animals)
     - `belongs to` - one object of class Y `belongs to` exactly one  object of class X (e.g. animal.owner)
+    - making sure that relationship works both ways
