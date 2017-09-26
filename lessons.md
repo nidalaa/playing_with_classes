@@ -13,3 +13,6 @@
 7. Getters & Setters shortcuts
     - attr_writer, attr_reader
     - attr_accessor (2in1: attr_writer + attr_reader)
+8. Reading recap
+    - classes and objects: https://learnrubythehardway.org/book/ex42.html
+    - inheritnace & Composition: https://learnrubythehardway.org/book/ex42.html
