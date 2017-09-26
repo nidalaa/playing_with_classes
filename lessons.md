@@ -21,3 +21,6 @@
     - `has many` - one object of class X can have a collection of objects of class Y (e.g. alex.animals)
     - `belongs to` - one object of class Y `belongs to` exactly one  object of class X (e.g. animal.owner)
     - making sure that relationship works both ways
+11. Three classes relationship (has-many-through relationship)
+    - real life example: a dog `has many` vet visits in their life and each of these visits `belongs to` one vet. From anther perspective: a vet `has many visits` and each of these visits `belongs to` one animal. End result is that that a dog `has many` vets through visits and a vet `has many` animals through visits.
+    - `has many` + `belongs to` between class X and Y (e.g. dog.visits + visit.animal)

@@ -1,18 +1,24 @@
 require "./animals/remover.rb"
 
 class Animal
-  attr_reader :id, :owner
+  attr_reader :id, :owner, :visits
   attr_accessor :name, :number_of_legs
 
   def initialize(number_of_legs, name = "Unknown")
     @id = Random.rand(1..1000)
     @name = name
     @number_of_legs = number_of_legs
+    @visits = []
   end
 
   def owner=(value)
     @owner = value
     value.animals.push(self) unless value.animals.include?(self)
+  end
+
+  def add_visit(visit)
+    @visits << visit
+    visit.animal = self
   end
 
   def speak

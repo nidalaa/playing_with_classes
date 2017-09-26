@@ -2,49 +2,23 @@ require "./animals/animal.rb"
 require "./animals/dog.rb"
 require "./animals/spider.rb"
 require "./animals/owner.rb"
+require "./animals/visit.rb"
 
 # Please require this file and try to do each of below instructions:
 
 # dog = Dog.new(4, "Rax")
 # spider = Spider.new(8, "Bob")
-# animal = Animal.new(8, "Stupid name")
 
-# alex = Owner.new("Alex")
-# alex.animals
+# visit_1 = Visit.new("2017-12-22")
+# visit_1.animal = dog
+# visit_2 = Visit.new("2017-12-31")
+# visit_2.animal = dog
+# dog.visits.count
+# dog.visits.map { |visit| visit.date }
 
-# dog.owner
-# alex.add_animal(dog)
-# dog.owner
-# dog.owner.name
-# alex.animals
-
-# spider.owner
-# alex.add_animal(spider)
-# spider.owner
-# spider.owner.name
-# alex.animals
-
-# animal.owner
-# alex.add_animal(animal)
-# animal.owner
-# animal.owner.name
-
-
-# alex.animals.count
-# alex.animals.first.name
-# alex.animals.first.number_of_legs
-
-
-
-
-
-# second_animal = Animal.new(4, "Kitty")
-# second_animal.owner
-# alex.animals.count
-
-# second_animal.owner = alex
-
-# second_animal.owner
-# alex.animals.count
-# alex.animals.last
-# alex.animals.last.name
+# visit_3 = Visit.new("2017-11-11")
+# visit_3.animal = spider
+# visit_4 = Visit.new("2017-10-10")
+# visit_4.animal = spider
+# spider.visits.count
+# spider.visits.map { |visit| visit.date }
