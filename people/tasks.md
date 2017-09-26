@@ -53,3 +53,15 @@ Change your own getters and setters to shortcuts:
 - then use attr_accessor where it makes sense
 
 ----------------
+
+[#10]
+
+Create relationship has_many-belongs_two between classroom and students:
+
+- first create class Classroom with attr_accessor `label` initialized in constructor
+- make first side of relationship: Classroom has many Students
+- make second side of relationship: Student belongs_to Classroom
+- make sure that assigning a student to classroom automaticaly adds classroom for that student
+- make sure that adding a classrom to student automatically assigns student to classroom's students list
+
+----------------
