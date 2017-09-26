@@ -1,3 +1,5 @@
+require "./animals/remover.rb"
+
 class Animal
   def initialize(number_of_legs, name = "Unknown")
     @id = Random.rand(1..1000)
@@ -30,6 +32,11 @@ class Animal
     if can_speak?
       "Bla bla bla"
     end
+  end
+
+  def remove_leg
+    remover = Remover.new
+    @number_of_legs = remover.decrease(@number_of_legs)
   end
 
   private

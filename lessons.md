@@ -9,3 +9,4 @@
     - children class specific methods
     - overriding parent class methods
     - extending constructor
+6. Composition - use other class
