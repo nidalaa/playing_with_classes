@@ -10,3 +10,5 @@
     - overriding parent class methods
     - extending constructor
 6. Composition - use other class
+7. Getters & Setters shortcuts
+    - attr_writer, attr_reader
