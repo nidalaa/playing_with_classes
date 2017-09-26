@@ -1,6 +1,5 @@
 class Spider < Animal
-  attr_reader :net_strength_level
-  attr_writer :net_strength_level
+  attr_accessor :net_strength_level
 
   def initialize(number_of_legs, name = "Unknown", net_strength_level = 10)
     super(number_of_legs, name)

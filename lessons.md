@@ -12,3 +12,4 @@
 6. Composition - use other class
 7. Getters & Setters shortcuts
     - attr_writer, attr_reader
+    - attr_accessor (2in1: attr_writer + attr_reader)

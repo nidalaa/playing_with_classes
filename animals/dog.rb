@@ -1,6 +1,5 @@
 class Dog < Animal
-  attr_reader :color
-  attr_writer :color
+  attr_accessor :color
 
   def initialize(number_of_legs, name = "Unknown", color = "black")
     super(number_of_legs, name)
