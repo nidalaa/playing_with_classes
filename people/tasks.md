@@ -31,3 +31,17 @@ Create class Teacher:
 - inherits from Person
 - constructor extends parent's class constructor by adding instance var & param (`@specialization`/`specialization`)
 - overrides parent's methos `can_use_services?` and always returns `true`
+
+----------------
+
+[#6]
+
+Create class Corrector with method `correct_name`, which:
+
+- makes sure that the first letter of the given word is a capital letter
+- makes sure that name has max 10 chars (and makes it shorter and add `...` if needed)
+
+Use and instance of Corrector class in Person class:
+- in `validate_name` method, to correct person's name
+
+----------------
