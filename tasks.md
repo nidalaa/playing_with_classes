@@ -3,3 +3,4 @@
 3. Go to third section of people/tasks.md
 4. Go to fourth section of people/tasks.md
 5. Go to fifth section of poeople/tasks.md
+6. Create your own folder with 4 diffrent classes and use all concepts you have learnt.
