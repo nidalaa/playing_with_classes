@@ -16,3 +16,6 @@
 8. Reading recap
     - classes and objects: https://learnrubythehardway.org/book/ex42.html
     - inheritnace & Composition: https://learnrubythehardway.org/book/ex42.html
+10. Basic two-ways class relationships
+    - real life example: Alex `has many` animals: a dog, a spider, a cat. And each of these animals `belongs to` one owner, right? A dog belongs to Alex. A spider belongs to Alex. A cat belongs to Alex.
+    - `has many` - one object of class X can have a collection of objects of class Y (e.g. alex.animals)
