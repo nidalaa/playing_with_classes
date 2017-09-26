@@ -20,3 +20,8 @@ require "./animals/owner.rb"
 # alex.animals.count
 # alex.animals.first.name
 # alex.animals.first.number_of_legs
+
+# animal.owner
+# animal.owner = alex
+# animal.owner
+# animal.owner.name

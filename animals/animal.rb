@@ -2,7 +2,7 @@ require "./animals/remover.rb"
 
 class Animal
   attr_reader :id # only getter for id, we do not want it to be changeable
-  attr_accessor :name, :number_of_legs
+  attr_accessor :name, :number_of_legs, :owner
 
   def initialize(number_of_legs, name = "Unknown")
     @id = Random.rand(1..1000)
