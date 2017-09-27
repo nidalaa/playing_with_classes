@@ -65,3 +65,18 @@ Create relationship has_many-belongs_two between classroom and students:
 - make sure that adding a classrom to student automatically assigns student to classroom's students list
 
 ----------------
+
+[#11]
+
+Create has-many-through relationship:
+
+- first create class Book with attr_accessor `title` and `author` initialized in constructor
+- then create class Rental with attr_accessor `date` initialized in constructor
+
+- make first side of  1 relationship: Book has many Rentals
+- make second side of 1 relationship: Rental belongs_to Book
+- make first side of  2 relationship: Person has many Rentals
+- make second side of 2 relationship: Rental belongs_to Person
+- make person and book required param in Rental constructor
+
+----------------
