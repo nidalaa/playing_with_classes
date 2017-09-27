@@ -25,3 +25,12 @@
     - real life example: a dog `has many` vet visits in their life and each of these visits `belongs to` one vet. From anther perspective: a vet `has many visits` and each of these visits `belongs to` one animal. End result is that that a dog `has many` vets through visits and a vet `has many` animals through visits.
     - `has many` + `belongs to` between class X and Y (e.g. dog.visits + visit.animal)
     - `has many` + `belongs to` between class X and Y (e.g. vet.visits + visit.vet)
+12. Reading: object oriented programming
+    - 4 principles - https://anampiu.github.io/blog/OOP-principles
+      - encapsulation: mostly using getters and setters in responsible way + usage of private methods
+      - inheritance: covered in recap in point 8
+      - abstraction: no real abstract class and methods in Ruby, we can do sth like https://stackoverflow.com/a/512568 though
+      - polymorphism: no specific implementation in Ruby, some ideas around well described here: https://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby
+      - the simplest examples of 3 principles (abstraction is not included) in Ruby: https://devblast.com/b/ruby-inheritance-encapsulation-polymorphism
+    - SOLID - https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design and https://robots.thoughtbot.com/back-to-basics-solid
+    - KISS & YAGNI & DRY - http://www.itexico.com/blog/bid/99765/software-development-kiss-yagni-dry-3-principles-to-simplify-your-life
