@@ -2,17 +2,13 @@ class Visit
   attr_reader :animal, :vet
   attr_accessor :date
 
-  def initialize(date)
+  def initialize(date, animal, vet)
     @date = date
-  end
 
-  def animal=(value)
-    @animal = value
-    value.visits.push(self) unless value.visits.include?(self)
-  end
+    @animal = animal
+    animal.visits << self
 
-   def vet=(value)
-    @vet = value
-    value.visits.push(self) unless value.visits.include?(self)
+    @vet = vet
+    vet.visits << self
   end
 end
