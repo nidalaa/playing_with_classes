@@ -34,3 +34,4 @@
       - the simplest examples of 3 principles (abstraction is not included) in Ruby: https://devblast.com/b/ruby-inheritance-encapsulation-polymorphism
     - SOLID - https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design and https://robots.thoughtbot.com/back-to-basics-solid
     - KISS & YAGNI & DRY - http://www.itexico.com/blog/bid/99765/software-development-kiss-yagni-dry-3-principles-to-simplify-your-life
+13. Project schema: UML class diagram
